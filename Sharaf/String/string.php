@@ -5,7 +5,7 @@
 /* Task 1 */
 /*********************** */
 $name = "mohammedmakhlouf78";
-$strle = strlen($name) / 2;
+$strle = intval(strlen($name) / 2);
 // echo substr($name, $strle);
 echo "\n";
 //get from the middle to the end
@@ -70,9 +70,9 @@ echo "\n";
 /* Task 5 */
 /*********************** */
 
-$name = "mohammedmakhlouf78";
+$name = "mohame";
 $strle = strlen($name) / 2;
-echo substr($name, $strle, 3);
+echo substr($name, -$strle - 1, 3);
 echo "\n";
 // get 3 letters from the middle
 
