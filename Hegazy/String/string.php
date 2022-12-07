@@ -53,8 +53,8 @@ echo "\n";
 /*********************** */
 /* Task 4 */
 /*********************** */
-$dsec = "hello my name is mohammed and i love cats and my email is alimakhlouf@gmail.com";
-$substr = substr($dsec, -20);
+$d = "hello my name is mohammed and i love cats and my email is alimakhlouf@gmail.com";
+$substr = substr($d, -20);
 $strpos = strpos($substr, '@');
 // if (strpos($substr, '@') === false) {
 //     echo "No exist @ \n";
@@ -74,8 +74,8 @@ echo "\n";
 /*********************** */
 
 $name = "mohammedmakhlouf78";
-$strle = strlen($name) / 2;
-echo substr($name, $strle, 3);
+$hegazy = strlen($name) / 2;
+echo substr($name, $hegazy, 3);
 echo "\n";
 // get 3 letters from the middle
 
