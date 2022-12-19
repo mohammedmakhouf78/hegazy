@@ -1,0 +1,6 @@
+Initialization:
+    give the variable a starting value
+interpolated varialbes:
+    variables inside a string
+heredoc
+nowdoc
