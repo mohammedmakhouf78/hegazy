@@ -1,12 +1,7 @@
 <?php
 
-$email = "@aligmail.com";
+$name = "mohammed ameen is a very good person and he is";
 
-if(strpos($email, "@") === false)
-{
-    echo "there is an error \n";
-    die;
-}
-echo "success\n";
+echo strlen($name) . "\n";
 
-echo "\n";
+echo  substr_replace($name, "...", 25) . "\n";
