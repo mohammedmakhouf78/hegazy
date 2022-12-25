@@ -211,25 +211,6 @@ function runline($row, $num = "1")
 //     return $num * $num;
 // }
 // echo square(4);   // outputs '16'.
-
-
-
-
-//Warning:
-// Trying to access array offset on value of type int in
-
-// print_r($num[$i]) . "\n";
-
-// Uninitialized string offset 6 in
-
-// $contere++;
-
-/*********************** */
-/* Task 11 */
-/*********************** */
-
-
-
 function getNum($num)
 {
     $unmLength = strlen($num); //12345678
@@ -256,3 +237,38 @@ function getRowLine($row, $num = "1")
 }
 
 getRowLine(10, "5");
+
+
+
+
+//Warning:
+// Trying to access array offset on value of type int in
+
+// print_r($num[$i]) . "\n";
+
+// Uninitialized string offset 6 in
+
+// $contere++;
+
+/*********************** */
+/* Task 11 */
+/*********************** */
+
+
+
+
+
+/*********************** */
+/* Task 12 */
+/*********************** */
+// write a function that take a string and returns a string where first letter is capitalized and 2 is not and 3 is capitalized and 4 is not and so on
+
+//input mohamed 
+//output MoHaMmEd
+
+
+
+
+/*********************** */
+/* Task 12 */
+/*********************** */
