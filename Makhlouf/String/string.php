@@ -1,7 +1,7 @@
 <?php
 
-$name = "mohammed ameen is a very good person and he is";
+$x = true;
 
-echo strlen($name) . "\n";
+$x || print("hello");
 
-echo  substr_replace($name, "...", 25) . "\n";
+echo "\n";

@@ -72,7 +72,7 @@ echo "\n";
 
 $name = "mohame";
 $strle = strlen($name) / 2;
-echo substr($name, -$strle - 1, 3);
+echo substr($name, $strle - 1, 3);
 echo "\n";
 // get 3 letters from the middle
 

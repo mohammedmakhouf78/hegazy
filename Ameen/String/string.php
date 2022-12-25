@@ -14,7 +14,7 @@ $name = "mohammedmakhlouf78";
 $lengthString = strlen($name);
 $lengthMiddleString = intval($lengthString / 2);
 
-$result =  substr($name, $lengthMiddleString, $lengthString);
+$result =  substr($name, $lengthMiddleString);
 echo $result;
 
 

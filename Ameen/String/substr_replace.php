@@ -33,14 +33,16 @@ $str = "my name is mohammed sharaf iam a good person and i like to eat chikens g
 
 function search_count_chars($str, ...$chars)
 {
-    $lengthArry = count($chars) - 1;
-    for ($x = 0; $x <= $lengthArry; $x++) {
-
+    $lengthArry = count($chars);
+    for ($x = 0; $x < $lengthArry; $x++) //chars
+    {
         $count = 0;
         $countStr = strlen($str);
 
-        for ($i = 0; $i < $countStr; $i++) {
-            if (substr($str, $i, 1) == $chars[$x]) {
+        for ($i = 0; $i < $countStr; $i++) 
+        {
+            if ($str[$i] == $chars[$x]) 
+            {
                 $count = $count + 1;
             }
         }
