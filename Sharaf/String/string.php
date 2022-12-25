@@ -38,7 +38,7 @@ echo "\n";
 /*********************** */
 $name = "mohammedmakhlouf78";
 // echo substr($name, -5);
-echo "\n";
+// echo "\n";
 //get the last 5 letters
 
 /*********************** */
@@ -58,7 +58,7 @@ $strpos = strpos($substr, '@');
 // } else {
 //     echo "Yes exist @ \n";
 // }
-echo "\n";
+// echo "\n";
 // get the last 20 letters of the string and check if they are a valid email
 /*********************** */
 /* Task 4 */
@@ -72,8 +72,8 @@ echo "\n";
 
 $name = "mohame";
 $strle = strlen($name) / 2;
-echo substr($name, -$strle - 1, 3);
-echo "\n";
+// echo substr($name, -$strle - 1, 3);
+// echo "\n";
 // get 3 letters from the middle
 
 /*********************** */
@@ -128,7 +128,7 @@ $str = "my name is mohammed sharaf iam a good person and i like to eat chikens g
 $str = "my name is mohammed sharaf iam a good person and i like to eat chikens grill";
 
 // echo strrev($str);
-echo "\n";
+// echo "\n";
 /*********************** */
 /* Task 9 */
 /*********************** */
@@ -143,9 +143,116 @@ $str = "my name is mohammed sharaf iam a good person and i like to eat chikens g
 
 $arrayStrring = explode(' ', $str);
 $reverseArray = array_reverse($arrayStrring);
-print_r(implode(" ", $reverseArray));
-echo "\n";
+// print_r(implode(" ", $reverseArray));
+// echo "\n";
 
 /*********************** */
 /* Task 10 */
 /*********************** */
+
+
+
+
+/*********************** */
+/* Task 11 */
+/*********************** */
+// 1
+// 11
+// 21
+// 1211
+// 111221
+// 312211
+// 13112221
+// 1113213211
+
+// $num = 111221;
+
+
+
+function getScript($num)
+{
+    // echo "mohamed sharaf";
+    $numLength = strlen($num); // 1 2 3 4 5 6
+    // echo $numLength . "\n";
+    $contere = 1;
+    // echo $contere . "\n";
+    $result = "";
+    for ($i = 0; $i < $numLength; $i++) { // 0 1 2 3 4 5
+        // echo $i . "\n";
+        // echo $num[$i] . "\n";
+        if (($i < $numLength - 1) && $num[$i] == $num[$i + 1]) {
+
+            $contere++;
+            // echo $contere . "\n";
+        } else {
+            $result .= $contere . $num[$i];
+            $contere = 1;
+            // echo $result . "\n";
+            // return $result;
+        }
+    }
+    return $result;
+    // echo "kfdkgdklfjgdfgjkfdjgk";
+    // echo $contere . "\n";
+    // echo $result . "\n";
+}
+
+function runline($row, $num = "1")
+{
+    for ($i = 0; $i <  $row; $i++) {
+        echo $num . "\n";
+        $num = getScript($num);
+    }
+}
+// runline(5);
+
+// function square($num)
+// {
+//     return $num * $num;
+// }
+// echo square(4);   // outputs '16'.
+
+
+
+
+//Warning:
+// Trying to access array offset on value of type int in
+
+// print_r($num[$i]) . "\n";
+
+// Uninitialized string offset 6 in
+
+// $contere++;
+
+/*********************** */
+/* Task 11 */
+/*********************** */
+
+
+
+function getNum($num)
+{
+    $unmLength = strlen($num); //12345678
+    $counter = 1;
+    $result = "";
+    for ($i = 0; $i < $unmLength; $i++) {
+
+        if (($i < $unmLength - 1) &&  $num[$i] == $num[$i + 1]) {
+            $counter++;
+        } else {
+            $result .= $counter . $num[$i];
+            $counter = 1;
+        }
+    }
+    return $result;
+}
+
+function getRowLine($row, $num = "1")
+{
+    for ($i = 0; $i < $row; $i++) {
+        echo $num . "\n";
+        $num =  getNum($num);
+    }
+}
+
+getRowLine(10, "5");
