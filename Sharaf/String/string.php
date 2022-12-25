@@ -72,10 +72,80 @@ echo "\n";
 
 $name = "mohame";
 $strle = strlen($name) / 2;
-echo substr($name, -$strle - 1, 3);
+// echo substr($name, -$strle - 1, 3);
 echo "\n";
 // get 3 letters from the middle
 
 /*********************** */
 /* Task 5 */
+/*********************** */
+
+
+
+/*********************** */
+/* Task 7 */
+/*********************** */
+//using that string ellipsis(...) it from the middle
+
+$str = "mohaemd emad";
+
+$strlen = intval(strlen($str) / 2);
+$ellipsis = substr_replace($str, "...", $strlen);
+// echo $ellipsis;
+// echo "\n";
+/*********************** */
+/* Task 7 */
+/*********************** */
+
+
+
+
+/*********************** */
+/* Task 8 */
+/*********************** */
+
+//using that string count how many (a) and how many (o) and how many (m)
+$str = "my name is mohammed sharaf iam a good person and i like to eat chikens grill";
+
+// echo substr_count($str, "a");
+// echo "\n";
+// echo substr_count($str, "o");
+// echo "\n";
+// echo substr_count($str, "m");
+// echo "\n";
+
+/*********************** */
+/* Task 8 */
+/*********************** */
+
+
+
+
+/*********************** */
+/* Task 9 */
+/*********************** */
+//using that string reverse the string letters (using loops)
+$str = "my name is mohammed sharaf iam a good person and i like to eat chikens grill";
+
+// echo strrev($str);
+echo "\n";
+/*********************** */
+/* Task 9 */
+/*********************** */
+
+
+
+/*********************** */
+/* Task 10 */
+/*********************** */
+//using that string reverse the string words
+$str = "my name is mohammed sharaf iam a good person and i like to eat chikens grill";
+
+$arrayStrring = explode(' ', $str);
+$reverseArray = array_reverse($arrayStrring);
+print_r(implode(" ", $reverseArray));
+echo "\n";
+
+/*********************** */
+/* Task 10 */
 /*********************** */
