@@ -26,6 +26,7 @@ $str = "my name is mohammed sharaf iam a good person and i like to eat chikens g
 
 
 //using that string reverse the string letters (using loops)
+//llirg snekihc
 $str = "my name is mohammed sharaf iam a good person and i like to eat chikens grill";
 
 
@@ -33,7 +34,7 @@ $str = "my name is mohammed sharaf iam a good person and i like to eat chikens g
 
 
 //using that string reverse the string words
+//grill chickens eat to like i and
 $str = "my name is mohammed sharaf iam a good person and i like to eat chikens grill";
-
 
 

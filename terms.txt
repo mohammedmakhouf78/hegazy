@@ -1,0 +1,31 @@
+Initialization:
+    give the variable a starting value
+interpolated varialbes:
+    variables inside a string
+heredoc
+nowdoc
+
+any operator have operands and a return and precedence
+
+[] ==> square brackets ==> subscript operator
+{} ==> curly brackets
+() ==> parentheses ==> call operator calls the function
+= ==> equal ==> assignment operator
+
+== ==> double equal ==> equal operator
+< ==> opening angle bracket  ==> less than operator
+> ==> closing angle bracket  ==> greater than operator
+/ ==> forslash 
+\ ==> backslash
+. ==> dot ==> concatination operator
+
++= -= .= *=   ==> compound assignment operators
+
++ ==> plus ==> addition operator
+- ==> minus ==> subtraction operator
+* ==> astresc ==> subtraction operator
+
+++ ==> double plus ==> increment operator
+-- ==> double minus ==> decrement operator
+
+literals => 1 , 'ahmed', true, 1.50
