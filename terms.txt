@@ -29,3 +29,7 @@ any operator have operands and a return and precedence
 -- ==> double minus ==> decrement operator
 
 literals => 1 , 'ahmed', true, 1.50
+
+pascal Case ==> FirstLetterOfEveryWordIsUpperCase
+camel Case ==> firstLetterSamllOthersUpperCase
+snake Case ==> this_is_snake_case
