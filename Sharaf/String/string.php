@@ -200,8 +200,8 @@ function getScript($num)
 function runline($row, $num = "1")
 {
     for ($i = 0; $i <  $row; $i++) {
-        echo $num . "\n";
-        $num = getScript($num);
+        // echo $num . "\n";
+        // $num = getScript($num);
     }
 }
 // runline(5);
@@ -231,8 +231,8 @@ function getNum($num)
 function getRowLine($row, $num = "1")
 {
     for ($i = 0; $i < $row; $i++) {
-        echo $num . "\n";
-        $num =  getNum($num);
+        // echo $num . "\n";
+        // $num =  getNum($num);
     }
 }
 
@@ -266,8 +266,23 @@ getRowLine(10, "5");
 //input mohamed 
 //output MoHaMmEd
 
+function FunctionName($inputString)
+{
+    $strLen = strlen($inputString);
+    $result = "";
+    for ($i = 0; $i < $strLen; $i++) {
 
+        if ($i % 2 == 0) {
+            echo  $result .= strtoupper($inputString[$i]);
+        } else {
+            echo $result .= $inputString[$i];
+        }
+        $result = "";
+    }
+    echo "\n";
+}
 
+FunctionName("mohamedsharaf");
 
 /*********************** */
 /* Task 12 */
