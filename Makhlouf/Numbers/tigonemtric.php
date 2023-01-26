@@ -1,3 +1,4 @@
 <?php
 
-echo sin(30) . "\n";
+// echo sin( deg2rad(180) ) . "\n";
+
