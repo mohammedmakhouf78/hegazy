@@ -1,6 +1,100 @@
 <?php
 
-echo "<h1>" . implode("<h1> <h1>",['ahmed','ali','ebrahim','adfdsa']) . "<h1>" . "\n";
+$fruits1 = [
+    10,
+    'x'  =>  'red',
+    'apple',
+    'sharaf',
+    'xx' => null,
+];
+
+
+
+echo array_search("asdfsadf", $fruits1) . "\n";
+echo in_array("asdfdsaf", $fruits1) . "\n";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $fruits1 = [
+//     10,
+//     'x'  =>  'red',
+//     'apple',
+//     'sharaf',
+//     'xx' => null
+// ];
+
+// $fruits1 = array_flip($fruits1);
+
+
+// print_r($fruits1);
+
+// echo array_key_exists("sharaf", $fruits1) . "\n"; // o of 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $fruits1 = ['banana','x'  =>  'red' , 'apple', 'sharaf', 'xx' => null];
+
+
+// echo isset($fruits1['xx']) . "\n";
+// echo array_key_exists('xx', $fruits1) . "\n";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// echo "<h1>" . implode("<h1> <h1>",['ahmed','ali','ebrahim','adfdsa']) . "<h1>" . "\n";
 
 
 
